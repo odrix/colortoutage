@@ -1,4 +1,4 @@
-import { db, Coloring } from '../../../lib/database.ts'
+import { db, Coloring } from '@/lib/database.ts'
 import { NextResponse } from 'next/server';
  
 export async function GET(request: Request) {
