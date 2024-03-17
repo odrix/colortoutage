@@ -11,7 +11,7 @@ export default async function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
  {
   colorings.map(item => (
-   <ColoringItem coloring={item}></ColoringItem>
+   <ColoringItem coloring={item} key={item.id}></ColoringItem>
  ))}
 
       <h1>hello</h1>
